@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>City:</strong>
+  <%= @click.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @click.state %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @click.country %>
+</p>
+
+<p>
+  <strong>User agent:</strong>
+  <%= @click.user_agent %>
+</p>
+
+<%= link_to 'Edit', edit_click_path(@click) %> |
+<%= link_to 'Back', clicks_path %>
